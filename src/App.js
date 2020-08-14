@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src='https://img.pokemondb.net/artwork/large/pikachu-lets-go.jpg' className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ding dong
         </p>
         <a
           className="App-link"
