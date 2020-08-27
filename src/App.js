@@ -7,6 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src='https://img.pokemondb.net/artwork/large/pikachu-lets-go.jpg' className="App-logo" alt="logo" />
+        <h1>
+          Testing testing, one two three
+        </h1>
         <p>
           ding dong
         </p>
