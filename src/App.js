@@ -1,12 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
+import pika from './pikachu-lets-go.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='https://img.pokemondb.net/artwork/large/pikachu-lets-go.jpg' className="App-logo" alt="logo" />
+        <img src={pika} className="App-logo" alt="logo" />
         <h1>
           hi
         </h1>
