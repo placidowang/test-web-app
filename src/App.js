@@ -13,8 +13,10 @@ function App() {
         <p>
           Nothing to see here. Here's a silly video instead.
         </p>
-        {/* eslint-disable-next-line */}
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/j6LjqDd_QcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style={{height: '60vw', width: '90vw'}}>
+          {/* eslint-disable-next-line */}
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/j6LjqDd_QcU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
       </header>
     </div>
   );
