@@ -8,11 +8,12 @@ function App() {
       <header className="App-header">
         <img src='https://img.pokemondb.net/artwork/large/pikachu-lets-go.jpg' className="App-logo" alt="logo" />
         <h1>
-          Testing testing, one two three
+          hi
         </h1>
         <p>
-          ding dong
+          Nothing to see here. Here's a silly video instead.
         </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j6LjqDd_QcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </header>
     </div>
   );
