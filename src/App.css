@@ -1,3 +1,7 @@
+html {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -20,11 +24,15 @@
 }
 
 .navbar {
-  height: 80px;
+  justify-content: center;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  height: calc(40px + 5vmin);
   border-bottom: solid;
   border-color: white;
   border-width: 1px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .App-main {
