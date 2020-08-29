@@ -11,10 +11,10 @@ html {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vw;
+  max-height: 25vh;
   pointer-events: none;
   margin: 30px;
-
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,28 +24,34 @@ html {
 }
 
 .navbar {
-  justify-content: center;
-  /* text-align: center; */
+  width: 100%;
   display: flex;
   align-items: center;
   height: calc(40px + 5vmin);
-  border-bottom: solid;
-  border-color: white;
+  /* border-bottom: solid; */
+  border-color: rgb(134, 134, 134);
   border-width: 1px;
   overflow: visible;
 }
 
-.App-main {
+.navbar div {
+  width: 50%;
+}
 
+.navbar-links {
+  margin: 0 0px;
+}
+
+.App-main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
-.App-link {
-  color: #61dafb;
+.navlink {
+  color: grey;
+  margin: 0 6px;
 }
 
 @keyframes App-logo-spin {
