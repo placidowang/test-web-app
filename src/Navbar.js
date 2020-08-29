@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line
 import { NavLink } from 'react-router-dom';
 
 const activeLink = {
