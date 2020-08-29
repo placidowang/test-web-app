@@ -2,6 +2,7 @@ import React from 'react';
 import pika from './pikachu-lets-go.png';
 import './App.css';
 import Navbar from './Navbar.js';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
