@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postbuild": "echo '/*/index.html  200' > ./build/_redirects"
+    "postbuild": "echo '/* /index.html  200' > ./build/_redirects"
   },
   "eslintConfig": {
     "extends": "react-app"
