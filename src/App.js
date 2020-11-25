@@ -7,7 +7,7 @@ import Contact from './Contact.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const test = () => {
-  console.log('test');
+  // console.log('test');
 }
 
 function App() {
