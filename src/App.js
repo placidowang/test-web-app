@@ -6,6 +6,10 @@ import About from './About.js';
 import Contact from './Contact.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+const test = () => {
+  console.log('test');
+}
+
 function App() {
   return (
     <Router>
@@ -14,7 +18,6 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
-        <div value='hello?'/>
       </div>
     </Router>
   );
